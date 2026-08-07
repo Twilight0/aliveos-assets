@@ -3,7 +3,7 @@
 # Sources from GitHub release archive.
 
 pkgname=aliveos-assets
-pkgver=2.0.1
+pkgver=2.1.0
 pkgrel=1
 pkgdesc="Distro identity assets for AliveOS: wallpapers and system logo"
 arch=('any')
@@ -20,6 +20,7 @@ package() {
   # --- System logo (pixmaps) ---
   install -Dm644 "pixmaps/aliveos-logo.png" "${pkgdir}/usr/share/pixmaps/aliveos-logo.png"
   install -Dm644 "pixmaps/aliveos-icon.png" "${pkgdir}/usr/share/pixmaps/aliveos-icon.png"
+  install -Dm644 "pixmaps/aliveos-icon-transparent.png" "${pkgdir}/usr/share/pixmaps/aliveos-icon-transparent.png"
 
   # --- Wallpapers ---
   install -d "${pkgdir}/usr/share/backgrounds/aliveos"
