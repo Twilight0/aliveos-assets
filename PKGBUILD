@@ -11,7 +11,7 @@ url="https://github.com/Twilight0/aliveos-assets"
 license=('GPL3')
 depends=()
 optdepends=()
-source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('SKIP')
 
 package() {
